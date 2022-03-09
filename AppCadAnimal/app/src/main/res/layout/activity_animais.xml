@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#E0FFFF"
+    android:layout_margin="15dp"
+    tools:context=".Animais">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="147dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp"
+        android:src="@drawable/nome_pet_shop" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="12dp"
+            android:text="Nome Dono :"
+            android:layout_marginLeft="6dp"
+            android:textColor="@color/black"
+            android:layout_marginTop="0dp"
+            />
+
+        <EditText
+            android:id="@+id/nomeDono"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="2dp"
+            android:hint=" Inserir nome do dono : "
+            android:drawableStart="@drawable/ic_baseline_person_24"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="12dp"
+            android:text="Nome Animal :"
+            android:layout_marginLeft="6dp"
+            android:textColor="@color/black"
+            android:layout_marginTop="0dp"
+            />
+
+        <EditText
+            android:id="@+id/nomeAnimal"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint=" Inserir nome do animal :"
+            android:drawableStart="@drawable/ic_baseline_pets_24"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="12dp"
+            android:text="Idade Animal :"
+            android:layout_marginLeft="6dp"
+            android:textColor="@color/black"
+            android:layout_marginTop="0dp"
+            />
+
+        <EditText
+            android:id="@+id/idadeAnimal"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint=" Idade do animal :"
+            android:inputType="number"
+            android:drawableStart="@drawable/ic_baseline_today_24"/>
+
+
+
+
+    <Button
+        android:id="@+id/btnModificar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:backgroundTint="@color/black"
+        android:text="@string/btnModificar" />
+
+
+</LinearLayout>

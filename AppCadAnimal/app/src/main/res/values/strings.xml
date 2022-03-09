@@ -1,0 +1,5 @@
+<resources>
+    <string name="btnCadastrar">Cadastrar</string>
+    <string name="btnModificar">Modificar</string>
+    <string name="app_name">PetShop</string>
+</resources>
